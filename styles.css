@@ -1,9 +1,9 @@
 :root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
+    --branco-principal: hsl(49, 96%, 56%);
+    --cinza-secundario: hwb(0 100% 0%);
     --botao-azul: #167BF7;
-    --cor-de-fundo: #000000;
-    --fonte-principal: 'Inter';
+    --cor-de-fundo: hsl(0, 0%, 0%);
+    --fonte-principal: 'Italic';
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 }
 
 .principal {
-    background-image: url("img/Background.png");
+    background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
